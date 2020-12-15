@@ -1,6 +1,8 @@
 # Exercício 03
 
-## Questão 01 (Problema 8 do Capítulo 03 do Livro)
+Coloque as respostas na pasta _exercicios/exercicio03_ do seu repositório.
+
+## Questão 01 (Problema 8 do Capítulo 03 do Livro) - questao01.md
 
 Prove que a seguinte gramática é ambígua:
 
@@ -10,7 +12,7 @@ Prove que a seguinte gramática é ambígua:
 <id> -> a | b | c
 ```
 
-## Questão 02 (Problema 19 do Capítulo 03 do Livro)
+## Questão 02 (Problema 19 do Capítulo 03 do Livro) - questao02.md
  Considere a seguinte gramática de atributos (Exemplo 3.6  da Seção 3.4.5):
 
  1. Regra Sintática: 
