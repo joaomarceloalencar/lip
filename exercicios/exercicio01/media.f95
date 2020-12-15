@@ -15,6 +15,7 @@ program exemplo
         do Counter = 1, List_Len
             read *, Int_List(Counter)
             Sum = Sum + Int_List(Counter)
+            Counter = Counter + 1
         end do
 ! Calcular a média
         Average = Sum / List_Len
