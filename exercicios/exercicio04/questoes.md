@@ -33,7 +33,7 @@ Esta questão envolve o raciocínio típico das **linguagens funcionais**. O que
 - M<sub>e</sub> (\<expr>, s): retorna o estado atualizado com a avaliação da expressão.
 - M<sub>a</sub> (x=\<expr>, s): retorna o estado atualizado com a atribuição do valor de expressão a variável _x_.
 - M<sub>sl</sub> (x=\<stmt_list>, s): retorna o estado atualizado após a execução de uma lista de sentenças.
-- M<sub>b</sub> (x=\<bool>, s): retorna verdadeiro ou falso de acordo com o estado e a expressão booleana. 
+- M<sub>b</sub> (\<bool>, s): retorna verdadeiro ou falso de acordo com o estado e a expressão booleana. 
 - M<sub>l</sub> (**while** \<bool> **do** \<stmt_list>, s): retorna o estado atualizado após a execução de um laço _while_.
 
 No caso, estamos considerando uma gramática arbitrária que tenha os símbolos não terminais \<bin_num>, \<dec_num>, \<expr>, \<stmt_list> e \<bool>. Você não precisa utilizar todas essas funções no caso do **do-while**, mas guarde como referência para a atividade. 
