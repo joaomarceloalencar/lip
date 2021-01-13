@@ -30,7 +30,7 @@ Esta questão envolve o raciocínio típico das **linguagens funcionais**. O que
 
 - M<sub>bin</sub> (<bin_num>): retorna objetos numéricos para cadeias de caracteres binárias.
 - M<sub>dec</sub> (<dec_num>): retorna objetos numéricos para cadeias de caracteres decimais.
-- M<sub>e</sub> (\<expr>, s): retorna o estado atualizado com a avaliação da expressão.
+- M<sub>e</sub> (\<expr>, s): retorna o valor da avaliação da expressão.
 - M<sub>a</sub> (x=\<expr>, s): retorna o estado atualizado com a atribuição do valor de expressão a variável _x_.
 - M<sub>sl</sub> (x=\<stmt_list>, s): retorna o estado atualizado após a execução de uma lista de sentenças.
 - M<sub>b</sub> (\<bool>, s): retorna verdadeiro ou falso de acordo com o estado e a expressão booleana. 
