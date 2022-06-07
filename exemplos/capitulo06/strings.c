@@ -10,6 +10,10 @@ int main(int argc, char *argv[]) {
 
     char str3[100] = "";
 
+    // É possível acessar um único elemento
+    printf("%c\n", str1[0]);
+    str1[0] = 'C';
+
     // Copia str2 em str3
     strcpy(str3, str2);
     printf("%s\n", str3);
@@ -24,6 +28,14 @@ int main(int argc, char *argv[]) {
     printf("%s\n", str4);
 
     printf("%lu\n",strlen(str4));
+
+    // Comparar duas strings?
+    // Se retornar 0, são iguais. Caso contrário diferentes. 
+    if (strcmp(str1, str2) == 0) {
+        printf("%s e %s são iguais.\n", str1, str2);
+    } else {
+        printf("%s e %s são diferentes.\n", str1, str2);
+    }
 
     return 0;
 }
